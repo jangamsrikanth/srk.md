@@ -50,7 +50,7 @@
      become: yes
      become_user: tomcat
      shell: | 
-        mv /opt/tomcat8/apache*/* /opt/tomcat8
+        mv /opt/tomcat8/apache* /opt/tomcat8
 
    - name: Creating a service file
      become: yes
