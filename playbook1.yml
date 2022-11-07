@@ -48,7 +48,6 @@
     
    - name: Move files to the /opt/tomcat8 directory
      become: yes
-     become_user: tomcat
      shell: | 
         cp -r /opt/tomcat8/apache-tomcat-8.5.83/* /opt/tomcat8/
 
