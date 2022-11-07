@@ -35,6 +35,7 @@
        mode: 0755
        owner: tomcat
        group: tomcat
+       recurse: yes
 
    - name: Download Tomcat using unarchive
      become: yes
